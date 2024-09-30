@@ -18,6 +18,9 @@ set(HEADER_FILES
     ${PLUGIN_CGAL_SRC_DIR}/FrontSurfaceReconstruction.h
     ${PLUGIN_CGAL_SRC_DIR}/UpsamplePointCloud.h
     ${PLUGIN_CGAL_SRC_DIR}/BooleanOperations.h
+
+    ${PLUGIN_CGAL_SRC_DIR}/MeshSkeletonization.h
+    ${PLUGIN_CGAL_SRC_DIR}/MeshSkeletonization.inl
     )
 set(SOURCE_FILES
     ${PLUGIN_CGAL_SRC_DIR}/initCGALPlugin.cpp
@@ -30,6 +33,8 @@ set(SOURCE_FILES
     ${PLUGIN_CGAL_SRC_DIR}/FrontSurfaceReconstruction.cpp
     ${PLUGIN_CGAL_SRC_DIR}/UpsamplePointCloud.cpp
     ${PLUGIN_CGAL_SRC_DIR}/BooleanOperations.cpp
+
+    ${PLUGIN_CGAL_SRC_DIR}/MeshSkeletonization.cpp
     )
 set(README_FILES README.md)
 
